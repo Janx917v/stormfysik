@@ -1,11 +1,67 @@
-/*
 * {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
     margin: 0;
 }
-*/
 
-h1 {}
+h1 {
+    font-family: 'PT Mono', monospace;
+}
 
-h2 {}
+h2 {
+    font-family: 'PT Mono', monospace;
+}
 
-p {}
+p {
+    font-family: 'Arvo', serif;
+}
+
+header {
+    position: relative;
+    height: 0;
+    margin-bottom: 5.25rem;
+}
+
+nav {
+    padding: 1.75rem;
+    text-align: center;
+    background-color: #C7B5A7;
+}
+
+a {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.25rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+
+a:link {
+    color: white;
+
+}
+
+a:visited {
+    color: white;
+}
+
+
+a:before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    background: white;
+    position: absolute;
+    top: 100%;
+
+    transition: .5s;
+}
+
+a:hover::before {
+    width: 100%;
+}
