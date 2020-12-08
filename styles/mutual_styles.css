@@ -50,18 +50,20 @@ a:visited {
     color: white;
 }
 
-
-a:before {
+a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 2;
     content: "";
-    width: 0px;
-    height: 2px;
-    background: white;
+    display: block;
+    height: 1.5px;
+    left: 50%;
     position: absolute;
-    top: 100%;
-
-    transition: .5s;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
 }
 
-a:hover::before {
+a:hover:after {
     width: 100%;
+    left: 0;
 }
