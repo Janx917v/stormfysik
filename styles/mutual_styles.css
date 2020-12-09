@@ -31,7 +31,7 @@ nav {
     background-color: #C7B5A7;
 }
 
-a {
+.menulink {
     font-family: 'PT Mono', monospace;
     font-size: 1.25rem;
     margin-right: 2.5rem;
@@ -41,16 +41,16 @@ a {
     position: relative;
 }
 
-a:link {
+.menulink:link {
     color: white;
 
 }
 
-a:visited {
+.menulink:visited {
     color: white;
 }
 
-a:after {
+.menulink:after {
     background: none repeat scroll 0 0 transparent;
     bottom: 2;
     content: "";
@@ -63,7 +63,45 @@ a:after {
     width: 0;
 }
 
-a:hover:after {
+.menulink:hover:after {
     width: 100%;
     left: 0;
+}
+
+footer {
+    position: fixed;
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #C7B5A7;
+    color: white;
+    text-align: left;
+    padding: .15rem;
+}
+
+footer p {
+    font-size: 1.15rem;
+    margin-left: 1rem;
+}
+
+.socialMedias {
+    margin-top: -3.12rem;
+    float: right;
+    margin-right: 1.6rem;
+
+}
+
+.facebook {
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+.instagram {
+    width: 2.9rem;
+    height: 2.9rem;
+}
+
+.socialMedias .instagram:hover {
+    filter: brightness(2);
 }
