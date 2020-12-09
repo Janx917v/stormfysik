@@ -102,13 +102,125 @@ footer p {
 }
 
 .logonav {
-    width: 4.4vw;
-    height:4.4vw;
+    width: 4.3rem;
+    height: 4.3rem;
 }
 
-.menulogo{
-    float:left;
-    margin-top:-1.5vw;
-    margin-left:-1vw;
-    margin-right:-5vw;
+.menulogo {
+    float: left;
+    margin-top: -1.5rem;
+    margin-left: -1rem;
+    margin-right: -5rem;
+}
+
+
+.menulinklast {
+    font-family: 'PT Mono', monospace;
+    font-size: 1.25rem;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+}
+
+.menulinklast {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.menulinklast:link {
+    color: white;
+
+}
+
+.menulinklast:visited {
+    color: white;
+}
+
+.menulinklast:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 2;
+    content: "";
+    display: block;
+    height: 1.5px;
+    left: 50%;
+    position: absolute;
+    background: white;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.menulinklast:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.burgermenu {
+    display: none;
+}
+
+@media (max-width: 950px) {
+    .menulink {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .menulinklast {
+        margin-left: 1.5rem;
+        margin-right: -4rem;
+
+    }
+
+    nav {
+        height: 4.9rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .menulink {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .menulinklast {
+        margin-left: 1rem;
+        margin-right: -4rem;
+
+    }
+}
+
+@media (max-width: 650px) {
+    .menulink {
+        display: none;
+    }
+
+    .menulinklast {
+        display: none;
+    }
+
+
+    .burgermenu {
+        display:block;
+        float:right;
+        font-size: 3rem;
+        padding:0;
+        text-align: right;
+    }
+
+    .burgerknap {
+      margin-right: 2rem;
+
+    }
+
+    .burgermenulink {
+        font-family: 'PT Mono', monospace;
+        font-size: 1.25rem;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+        cursor: pointer;
+        text-decoration: none;
+        position: relative;
+    }
+
 }
