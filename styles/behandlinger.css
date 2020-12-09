@@ -41,18 +41,18 @@ h3 {
     position: absolute;
     background-image: url(book_knap.svg);
     background-size: cover;
-    width: 10vw;
-    height: 3vw;
-    top: 41vw;
-    left: 8w;
+    width: 10rem;
+    height: 3rem;
+    top: 35.5rem;
+    left: 1.8vw;
 }
 
 .bookknap2 {
     position: absolute;
     background-image: url(book_knap.svg);
     background-size: cover;
-      width: 10vw;
-    height: 3vw;
-    top: 41vw;
-    left: 51.1vw;
+    width: 10rem;
+    height: 3rem;
+    top: 35.5rem;
+    left: 50.3vw;
 }
