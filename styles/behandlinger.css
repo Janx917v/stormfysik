@@ -1,6 +1,8 @@
 h3 {
     font-family: 'PT Mono', monospace;
+    color: #252525;
 }
+
 
 
 .main {
@@ -15,7 +17,7 @@ h3 {
     padding: 20px;
 }
 
-.section .kol1 {
+.kol1 {
     display: grid;
     grid-column-start: 1;
     grid-column-end: 2;
@@ -24,21 +26,24 @@ h3 {
 
 }
 
-.priser1 {}
 
-
-.section .kol2 {
-    grid-column-start: 2, 3;
+.kol2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
 }
+
 
 .bookknap1 {
     position: absolute;
     background-image: url(book_knap.svg);
     background-size: cover;
-    width: 13%;
-    height: 10%;
-    top: 39vw;
+    width: 10vw;
+    height: 3vw;
+    top: 41vw;
     left: 8w;
 }
 
@@ -46,8 +51,8 @@ h3 {
     position: absolute;
     background-image: url(book_knap.svg);
     background-size: cover;
-    width: 13%;
-    height: 10%;
-    top: 39vw;
+      width: 10vw;
+    height: 3vw;
+    top: 41vw;
     left: 51.1vw;
 }
