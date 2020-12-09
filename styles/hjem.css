@@ -40,29 +40,35 @@
 }*/
 /*mobil*/
 @media (max-width: 550px) {
+
+        .logo {
+        position: absolute;
+        width: 50vw;
+        height: 20vw;
+        left: 25vw;
+        top: 20vw;
+        padding-top: 100px;
+
+
+    }
     .kol1 p {
-        padding-top: 120px;
+        padding-top: 400px;
         padding-right: 20px;
         margin: 10px;
-        font-size: 15px;
-
-    }
-
-    .logo h1{
-        display: grid;
-         padding-top: 150px;
+        font-size: 12px;
         text-align: center;
-
     }
+
+
 
     .bookknap {
         position: absolute;
         background-size: cover;
-        width: 25vw;
+        width: 30vw;
         height:20vw;
         left: 35vw;
         top: 41vw;
-        padding-top: 450px;
+        padding-top: 445px;
 
     }
 
@@ -72,34 +78,47 @@
 /*desktop*/
 @media only screen and (min-width: 600px) {
 
-
-  .kol p {
-        display: grid;
-        grid-template-columns: 2fr 2fr;
-        grid-template-rows: 1fr 1fr;
-        column-gap: 10px;
-        padding-right: 160px;
-        padding-bottom: 20px;
-        margin: 15px;
-
-
-
-    }
-
-    .logo {
-        font-size: 4rem;
+        .logo {
+        font-size: 3rem;
         text-align: center;
+            padding-top: 150px;
 
 
     }
+
+
+    .kol1 {
+        display:grid;
+        grid-template-rows: 2fr 1fr;
+        grid-column: 2fr 1fr;
+    }
+
+  .p {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 3fr 1fr;
+        column-gap: 10px;
+        margin: 20px;
+
+
+
+
+    }
+
+    .kol2 {
+        display:grid;
+      grid-template-columns: 4fr 4fr;
+    }
+
+
 
    .bookknap {
      background-size: cover;
-        width: 40vw;
-        height:20vw;
+        width: 20vw;
+        height:10vw;
         top: 41vw;
-        left: 51.1vw;
-       padding-left: 200px;
+        left: 400vw;
+
     }
 }
 
