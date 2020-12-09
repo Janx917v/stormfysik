@@ -70,7 +70,6 @@ nav {
 
 footer {
     position: fixed;
-
     left: 0;
     bottom: 0;
     width: 100%;
@@ -100,8 +99,4 @@ footer p {
 .instagram {
     width: 2.9rem;
     height: 2.9rem;
-}
-
-.socialMedias .instagram:hover {
-    filter: brightness(2);
 }
