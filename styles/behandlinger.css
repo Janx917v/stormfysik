@@ -1,0 +1,19 @@
+h3 {
+    font-family: 'PT Mono', monospace;
+}
+
+#col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 30px;
+}
+
+.kol1 {
+    grid-column: 1/2;
+}
+
+
+.kol2 {
+
+}
