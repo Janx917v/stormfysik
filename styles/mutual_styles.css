@@ -5,6 +5,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: #F5F3DF;
 }
 
 h1 {
@@ -201,15 +202,15 @@ footer p {
 
 
     .burgermenu {
-        display:block;
-        float:right;
+        display: block;
+        float: right;
         font-size: 3rem;
-        padding:0;
+        padding: 0;
         text-align: right;
     }
 
     .burgerknap {
-      margin-right: 2rem;
+        margin-right: 2rem;
 
     }
 
