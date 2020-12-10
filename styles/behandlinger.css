@@ -10,7 +10,7 @@ h3 {
 }
 
 
-/* Skærme over 950px */
+/* Skærme over 650px */
 
 @media only screen and (min-width: 650px) {
 
@@ -65,11 +65,57 @@ h3 {
 
 }
 
-/* Skærme under 600px */
+/* Skærme under 650px */
 
 @media only screen and (max-width: 650px) {
 
-    .main {
-        margin: 20px;
+    .kol {
+        padding: 20px;
+         display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 30px;
+        padding: 20px;
     }
+
+    .kol1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+
+
+    .kol2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+
+
+    .bookknap1 {
+        position: absolute;
+        background-image: url(book_knap.svg);
+        background-size: cover;
+        width: 10rem;
+        height: 3rem;
+        top: 35.5rem;
+        left: 1.8vw;
+    }
+
+    .bookknap2 {
+        position: absolute;
+        background-image: url(book_knap.svg);
+        background-size: cover;
+        width: 10rem;
+        height: 3rem;
+        top: 35.5rem;
+        left: 50.3vw;
+    }
+
 }
