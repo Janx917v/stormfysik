@@ -87,39 +87,37 @@
     }
 
 
-    .kol1 {
-        display:grid;
-        grid-template-rows: 2fr 1fr;
-        grid-column: 2fr 1fr;
-    }
-
-  .p {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 3fr 1fr;
-        column-gap: 10px;
-        margin: 20px;
+ .kol1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-gap: 30px;
+    padding: 20px;
+     padding-top: 110px;
+}
 
 
 
 
-    }
+.kol2 {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
 
-    .kol2 {
-        display:grid;
-      grid-template-columns: 4fr 4fr;
-    }
+}
 
 
 
-   .bookknap {
-     background-size: cover;
-        width: 20vw;
-        height:10vw;
-        top: 41vw;
-        left: 400vw;
-
-    }
+.bookknap {
+    position: absolute;
+    background-size: cover;
+    width: 15rem;
+    height: 7rem;
+    top: 37.3rem;
+    left: 70vw;
+}
 }
 
 
