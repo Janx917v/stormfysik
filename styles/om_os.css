@@ -1,9 +1,60 @@
-.container {
-	display: grid;
-	grid-template-columns: 2fr 1fr;
-	padding: 20px;
+.main {
+    padding: 20px;
 }
 
-.main {
-	padding: 20px;
+
+/* Skærme over 650px */
+
+@media only screen and (min-width: 650px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding: 20px;
+        grid-gap: 30px;
+    }
+
+}
+
+
+/* Skærme under 650px */
+
+@media only screen and (max-width: 650px) {
+
+
+
+    .container {
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 20px;
+        padding: 20px;
+
+
+    }
+
+    .kolonne1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+
+
+    .kolonne2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+
+    video {
+        width: 100% !important;
+        height: auto !important;
+    }
 }
