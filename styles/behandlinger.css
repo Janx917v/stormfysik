@@ -1,6 +1,6 @@
 h3 {
     font-family: 'PT Mono', monospace;
-    color: #252525;
+
 }
 
 
@@ -48,7 +48,7 @@ h3 {
         background-size: cover;
         width: 10rem;
         height: 3rem;
-/*
+        /*
         top: 35.5rem;
         left: 1.8vw;
 */
@@ -60,7 +60,7 @@ h3 {
         background-size: cover;
         width: 10rem;
         height: 3rem;
-/*
+        /*
         top: 35.5rem;
         left: 50.3vw;
 */
@@ -73,6 +73,8 @@ h3 {
 
 @media only screen and (max-width: 650px) {
 
+
+
     .kol {
         padding: 20px;
         display: grid;
@@ -80,6 +82,7 @@ h3 {
         grid-template-rows: 1fr 1fr;
         grid-gap: 60px;
         padding: 20px;
+        margin-bottom: 60px;
     }
 
     .kol1 {
