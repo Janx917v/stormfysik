@@ -14,97 +14,101 @@
 
 
 <body>
-    <header>
-        <nav class="burgermenu">
-            <div class="burgerknap">☰</div>
-            <ul style="list-style: none;" class="burgersection">
-                <li><a class="burgermenulink" href="hjem.html">Hjem</a></li>
-                <li><a class="burgermenulink" href="booking.html">Booking</a></li>
-                <li><a class="burgermenulink" href="behandlinger.html">Behandling</a></li>
-                <li><a class="burgermenulink" href="om_os.html">Om os</a></li>
-                <li><a class="burgermenulink" href="kontakt.html">kontakt</a></li>
-            </ul>
-        </nav>
-        <nav>
-            <a class="menulogo" href="hjem.html"> <img class="logonav" src="svg/logo.svg" alt="Logo"></a>
-            <a class="menulink" href="hjem.html">Hjem</a>
-            <a class="menulink" href="booking.html">Booking</a>
-            <a class="menulink" href="behandlinger.html">Behandling</a>
-            <a class="menulink" href="om_os.html">Om os</a>
-            <a class="menulinklast" href="kontakt.html">Kontakt</a>
-        </nav>
-    </header>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <nav class="burgermenu">
+                    <div id="burgerknap">☰</div>
+                    <ul style="list-style: none;" id="burgersection" class="hidden">
+                        <li><a class="burgermenulink" href="hjem.html">Hjem</a></li>
+                        <li><a class="burgermenulink" href="booking.html">Booking</a></li>
+                        <li><a class="burgermenulink" href="behandlinger.html">Behandling</a></li>
+                        <li><a class="burgermenulink" href="om_os.html">Om os</a></li>
+                        <li><a class="burgermenulink" href="kontakt.html">kontakt</a></li>
+                    </ul>
+                </nav>
+                <nav>
+                    <a class="menulogo" href="hjem.html"> <img class="logonav" src="svg/logo.svg" alt="Logo"></a>
+                    <a class="menulink" href="hjem.html">Hjem</a>
+                    <a class="menulink" href="booking.html">Booking</a>
+                    <a class="menulink" href="behandlinger.html">Behandling</a>
+                    <a class="menulink" href="om_os.html">Om os</a>
+                    <a class="menulinklast" href="kontakt.html">Kontakt</a>
+                </nav>
+            </header>
 
-    <main>
+            <main>
 
-        <h1>KONTAKT</h1>
+                <h1>KONTAKT</h1>
 
 
-        <section class="form_section">
-            <article>
-                <h2>Skriv til os</h2>
-                <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra jer.</p>
-            </article>
+                <section class="form_section">
+                    <article>
+                        <h2>Skriv til os</h2>
+                        <p>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra jer.</p>
+                    </article>
 
-            <form action="" name="Kontakt">
-                <div class="form_felter">
-                    <label>
-                        Fulde navn
-                        <input type="text" name="fnavn" required>
-                    </label>
-                </div>
+                    <form action="" name="Kontakt">
+                        <div class="form_felter">
+                            <label>
+                                Fulde navn
+                                <input type="text" name="fnavn" required>
+                            </label>
+                        </div>
 
-                <div class="form_felter">
-                    <label>
-                        E-mail
-                        <input type="email" name="email" required>
-                    </label>
-                </div>
+                        <div class="form_felter">
+                            <label>
+                                E-mail
+                                <input type="email" name="email" required>
+                            </label>
+                        </div>
 
-                <div class="form_felter">
-                    <label>
-                        Telefon
-                        <input type="telefon" name="telefon" required>
-                    </label>
-                </div>
+                        <div class="form_felter">
+                            <label>
+                                Telefon
+                                <input type="telefon" name="telefon" required>
+                            </label>
+                        </div>
 
-                <div class="form_felt">
-                    <label>
-                        Hvad drejer henvendelsen sig om?
-                        <select name="liste">
-                            <option value="">Vælg</option>
-                            <option value="ryg">Ryg</option>
-                            <option value="skuldre">Skuldre</option>
-                            <option value="nakke">Nakke</option>
-                            <option value="lænd">Lænd</option>
-                            <option value="hofte">Hofte</option>
-                            <option value="albue">Albue</option>
-                            <option value="knæ">Knæ</option>
-                            <option value="ankel">Ankel</option>
-                            <option value="fod">Fod</option>
-                            <option value="andet">Andet</option>
-                        </select>
-                    </label>
-                </div>
+                        <div class="form_felt">
+                            <label>
+                                Hvad drejer henvendelsen sig om?
+                                <select name="liste">
+                                    <option value="">Vælg</option>
+                                    <option value="ryg">Ryg</option>
+                                    <option value="skuldre">Skuldre</option>
+                                    <option value="nakke">Nakke</option>
+                                    <option value="lænd">Lænd</option>
+                                    <option value="hofte">Hofte</option>
+                                    <option value="albue">Albue</option>
+                                    <option value="knæ">Knæ</option>
+                                    <option value="ankel">Ankel</option>
+                                    <option value="fod">Fod</option>
+                                    <option value="andet">Andet</option>
+                                </select>
+                            </label>
+                        </div>
 
-                <div class="form-felt">
-                    <label>
-                        Besked (valgfri)
-                        <textarea name="besked" rows="5" cols="28"></textarea>
-                    </label>
-                </div>
+                        <div class="form-felt">
+                            <label>
+                                Besked (valgfri)
+                                <textarea name="besked" rows="5" cols="28"></textarea>
+                            </label>
+                        </div>
 
-                <button>Send formular</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>Behandling i dine omgivelser</p>
+                        <button>Send formular</button>
+                    </form>
+                </section>
+            </main>
+        </div>
+        <footer>
+            <p>Behandling i dine omgivelser</p>
 
-        <a class="socialMedias" href="https://www.facebook.com/Stormfysik" target="_blank"> <img class="facebook" src="svg/facebook.svg" alt="Facebook"></a>
-        <a class="socialMedias" href="https://www.instagram.com/stormfysik.dk/" target="_blank"> <img class="instagram" src="svg/instagram.svg" alt="Instagram"></a>
-    </footer>
-    <script src=""></script>
+            <a class="socialMedias" href="https://www.facebook.com/Stormfysik" target="_blank"> <img class="facebook" src="svg/facebook.svg" alt="Facebook"></a>
+            <a class="socialMedias" href="https://www.instagram.com/stormfysik.dk/" target="_blank"> <img class="instagram" src="svg/instagram.svg" alt="Instagram"></a>
+        </footer>
+    </div>
+    <script src="javascript/javascript.js"></script>
 </body>
 
 </html>
