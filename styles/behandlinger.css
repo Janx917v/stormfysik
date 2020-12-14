@@ -7,6 +7,7 @@ h3 {
 
 .main {
     padding: 20px;
+    text-align: center;
 }
 
 
@@ -17,12 +18,16 @@ h3 {
     .kol {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr;
-        grid-gap: 30px;
+        grid-template-rows: 0.5fr 1fr 0.5fr;
         padding: 20px;
+        grid-gap: 30px;
+        max-width: 1400px;
+        text-align: center;
+        margin-bottom: 60px;
+
     }
 
-    .kol1 {
+    .kolh1 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -31,8 +36,7 @@ h3 {
 
     }
 
-
-    .kol2 {
+    .kolh2 {
         display: grid;
         grid-column-start: 2;
         grid-column-end: 3;
@@ -41,29 +45,62 @@ h3 {
 
     }
 
+    .kol1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+
+    .kol2 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+    }
+
+    .priser1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
+    .priser2 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
 
     .bookknap1 {
-        position: absolute;
+        /*        position: absolute;*/
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
-        /*
-        top: 35.5rem;
-        left: 1.8vw;
-*/
+        display: block;
+        margin: auto;
+
     }
 
     .bookknap2 {
-        position: absolute;
+        /*        position: absolute;*/
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
-        /*
-        top: 35.5rem;
-        left: 50.3vw;
-*/
+        display: block;
+        margin: auto;
+
     }
 
 
@@ -79,13 +116,14 @@ h3 {
         padding: 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        grid-gap: 60px;
+        grid-template-rows: 0.3fr 1fr 0.5fr 0.3fr 1fr 0.5fr;
         padding: 20px;
+        grid-gap: 50px;
         margin-bottom: 60px;
+        text-align: center;
     }
 
-    .kol1 {
+    .kolh1 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -94,8 +132,7 @@ h3 {
 
     }
 
-
-    .kol2 {
+    .kol1 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -104,22 +141,67 @@ h3 {
 
     }
 
+    .priser1 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+
+
+    .kolh2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+
+    }
+
+
+    .kol2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+
+    }
+
+
+    .priser2 {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    }
+
+
+
 
     .bookknap1 {
-        position: absolute;
+        /*        position: absolute;*/
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
+        margin-left: 25vw;
+        display: block;
+        margin: auto;
+
 
     }
 
     .bookknap2 {
-        position: absolute;
+        /*        position: absolute;*/
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
+        display: block;
+        margin: auto;
     }
 
 }
