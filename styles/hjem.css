@@ -22,7 +22,7 @@ img {
     }
 
     .tekst h1 {
-        padding-top: 20px;
+        padding-top: 22px;
         padding-right: 11px;
         padding-left: 10px;
         margin: 8px;
@@ -50,7 +50,7 @@ img {
         position: relative;
         background-size: cover;
         width: 10rem;
-        left: 35vw;
+        left: 30vw;
         top: 1rem;
 
 
