@@ -15,12 +15,11 @@ main {
 
 .billede-kol {
     position: relative;
-    width: 50v;
+    width: 50vw;
     height: 66.7vw;
-    top: 0w;
+    top: 0vw;
     left: 58vw;
     object-fit: contain;
-    object-position: ;
     opacity: 30%;
 }
 
@@ -65,7 +64,7 @@ button {
     padding: .75rem 1rem;
     font-family: 'PT Mono', monospace;
     font-style: normal;
-    cursor: pointer:;
+    cursor: pointer;
 }
 
 button:hover {
