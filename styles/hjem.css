@@ -6,6 +6,8 @@ img {
 
 }
 
+
+
 /*mobil*/
 @media (max-width: 650px) {
 
@@ -78,7 +80,13 @@ img {
 /*desktop*/
 @media only screen and (min-width: 650px) {
 
+<<<<<<< HEAD
 
+=======
+    .main {
+        margin-bottom: 80px;
+    }
+>>>>>>> origin/master
 
     #video {
         position: fixed;
@@ -91,6 +99,7 @@ img {
         height: 50%;
         transform: translate(-50%, -50%);
         object-fit: cover;
+
     }
 
     .logo {
@@ -153,4 +162,5 @@ img {
         padding-top: -5px;
         margin-bottom: auto;
     }
+
 }
