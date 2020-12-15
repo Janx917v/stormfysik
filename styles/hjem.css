@@ -28,6 +28,7 @@ img {
         margin: 8px;
         font-size: 15px;
         text-align: inherit;
+        font-family: 'Varela', sans-serif;
     }
 
     .tekst {
@@ -46,13 +47,11 @@ img {
 
 
     .bookknap {
-        position: absolute;
+        position: relative;
         background-size: cover;
-        width: 40vw;
-        height: 20vw;
-        height: 30vw;
-        left: 28vw;
-        top: 138vw;
+        width: 10rem;
+        left: 35vw;
+        top: 1rem;
 
 
     }
@@ -133,7 +132,7 @@ img {
         background-size: cover;
         width: 12rem;
         height: 4rem;
-        top: 41.4rem;
+        top: 46.4rem;
         left: 43.2vw;
         cursor: pointer;
     }
