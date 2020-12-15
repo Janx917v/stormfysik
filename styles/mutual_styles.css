@@ -22,6 +22,7 @@ footer {
 body {
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -37,6 +38,10 @@ p {
     line-height: 1.5;
 }
 
+footer p {
+    line-height: 1;
+}
+
 header {
     position: relative;
     height: 0;
@@ -47,6 +52,23 @@ nav {
     padding: 1.75rem;
     text-align: center;
     background-color: #C7B5A7;
+}
+
+.blad-container {
+    position: absolute;
+    margin-left: 4rem;
+}
+
+.blad-billede {
+    position: relative;
+    opacity: 0.7;
+    left: 23.5rem;
+    top: -2.4rem;
+    object-fit: cover;
+    object-position: 100% 0;
+
+    width: 1050px;
+    height: 89px;
 }
 
 .menulink {
@@ -122,6 +144,8 @@ footer p {
 .logonav {
     width: 4.3rem;
     height: 4.3rem;
+    z-index: 4;
+
 }
 
 .menulogo {
@@ -129,6 +153,8 @@ footer p {
     margin-top: -1.5rem;
     margin-left: -.45rem;
     margin-right: -6rem;
+    cursor: pointer;
+    z-index: 4;
 }
 
 
@@ -193,6 +219,19 @@ footer p {
     nav {
         height: 4.9rem;
     }
+
+    .blad-container {
+        position: absolute
+    }
+
+    .blad-billede {
+        position: relative;
+        opacity: 0.7;
+        left: 11.5rem;
+        top: -2.4rem;
+    }
+
+
 }
 
 @media (max-width: 750px) {
@@ -206,9 +245,15 @@ footer p {
         margin-right: -4rem;
 
     }
+
+
 }
 
 @media (max-width: 650px) {
+
+    .blad-container {
+        display: none;
+    }
 
     #page-container {
         position: relative;
@@ -263,25 +308,27 @@ footer p {
 
     .burgermenulink {
         font-family: 'PT Mono', monospace;
-        font-size: 1.55rem;
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
+
         cursor: pointer;
         text-decoration: none;
     }
 
     #burgersection {
         transition: transform 0.3s;
-        transform-style: top left;
+        transform-style: top right;
         background: #c7b5a7;
         margin-top: 1.5rem;
+        height: 35rem;
+        line-height: 100px;
+        z-index: 5;
     }
 
     #burgersection li {
         margin-top: -0.75rem;
+        margin-right: 2rem;
+        text-align: center;
+        padding: 10px;
     }
-
-
 
     nav {
         width: 100%;
@@ -299,7 +346,7 @@ footer p {
 
     .hidden {
         opacity: 0;
-        transform: translateY(-150%);
+        transform: translateX(150%);
 
     }
 
