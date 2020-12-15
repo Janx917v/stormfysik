@@ -80,13 +80,9 @@ img {
 /*desktop*/
 @media only screen and (min-width: 650px) {
 
-<<<<<<< HEAD
-
-=======
     .main {
         margin-bottom: 80px;
     }
->>>>>>> origin/master
 
     #video {
         position: fixed;
@@ -115,9 +111,8 @@ img {
         padding-right: 11px;
         padding-left: 10px;
         margin: 8px;
-        font-size: 30px;
+        font-size: 18px;
         text-align: center;
-        font-family: 'Varela', sans-serif;
 
     }
 
@@ -164,3 +159,4 @@ img {
     }
 
 }
+
