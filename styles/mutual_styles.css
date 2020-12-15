@@ -54,23 +54,6 @@ nav {
     background-color: #C7B5A7;
 }
 
-.blad-container {
-    position: absolute;
-    margin-left: 4rem;
-}
-
-.blad-billede {
-    position: relative;
-    opacity: 0.7;
-    left: 23.5rem;
-    top: -2.4rem;
-    object-fit: cover;
-    object-position: 100% 0;
-
-    width: 1050px;
-    height: 89px;
-}
-
 .menulink {
     font-family: 'PT Mono', monospace;
     font-size: 1.25rem;
@@ -220,17 +203,6 @@ footer p {
         height: 4.9rem;
     }
 
-    .blad-container {
-        position: absolute
-    }
-
-    .blad-billede {
-        position: relative;
-        opacity: 0.7;
-        left: 11.5rem;
-        top: -2.4rem;
-    }
-
 
 }
 
@@ -250,10 +222,6 @@ footer p {
 }
 
 @media (max-width: 650px) {
-
-    .blad-container {
-        display: none;
-    }
 
     #page-container {
         position: relative;
