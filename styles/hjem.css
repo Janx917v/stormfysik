@@ -47,7 +47,7 @@ img {
         position: absolute;
         background-size: cover;
         width: 40vw;
-        height:20vw;
+        height: 20vw;
         height: 30vw;
         left: 28vw;
         top: 138vw;
@@ -78,6 +78,8 @@ img {
 /*desktop*/
 @media only screen and (min-width: 650px) {
 
+
+
     #video {
         position: fixed;
         no-repeat;
@@ -104,8 +106,9 @@ img {
         padding-right: 11px;
         padding-left: 10px;
         margin: 8px;
-        font-size: 18px;
+        font-size: 30px;
         text-align: center;
+        font-family: 'Varela', sans-serif;
 
     }
 
