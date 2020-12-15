@@ -6,6 +6,8 @@ img {
 
 }
 
+
+
 /*mobil*/
 @media (max-width: 650px) {
 
@@ -47,7 +49,7 @@ img {
         position: absolute;
         background-size: cover;
         width: 40vw;
-        height:20vw;
+        height: 20vw;
         height: 30vw;
         left: 28vw;
         top: 138vw;
@@ -77,6 +79,10 @@ img {
 
 /*desktop*/
 @media only screen and (min-width: 650px) {
+
+    .main {
+        margin-bottom: 80px;
+    }
 
     #video {
         position: fixed;
@@ -150,4 +156,5 @@ img {
         padding-top: -5px;
         margin-bottom: auto;
     }
+
 }
