@@ -6,8 +6,13 @@ h3 {
 
 
 .main {
-    padding: 20px;
+/*    padding: 20px;*/
     text-align: center;
+}
+
+.main img {
+    max-width: 100%;
+    opacity: 20%;
 }
 
 
