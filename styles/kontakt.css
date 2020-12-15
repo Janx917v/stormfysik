@@ -44,7 +44,7 @@ article {
 }
 
 button {
-    background-color: #A0A0A0;
+    background-color: #6D7266;
     color: white;
     padding: .75rem 1rem;
     font-family: 'PT Mono', monospace;
@@ -52,7 +52,7 @@ button {
 }
 
 button:hover {
-    background-color: #6D7266;
+    background-color: #A0A0A0;
 }
 
 @media only screen and (min-width: 650px) {
