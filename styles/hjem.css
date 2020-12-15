@@ -1,39 +1,40 @@
 img {
 
-  max-width: 100%;
+    max-width: 100%;
 
-  height: auto;
+    height: auto;
 
 }
+
 /*mobil*/
-@media (max-width: 550px) {
+@media (max-width: 650px) {
 
 
-        .logo {
-      font-size: 3rem;
+    .logo {
+        font-size: 3rem;
         text-align: center;
-            padding-top: 10px;
+        padding-top: 10px;
 
 
 
     }
 
-       .tekst h1 {
+    .tekst h1 {
         padding-top: 20px;
         padding-right: 11px;
-       padding-left: 10px;
+        padding-left: 10px;
         margin: 8px;
         font-size: 15px;
-       text-align:inherit;
+        text-align: inherit;
     }
 
-   .tekst {
+    .tekst {
         padding-top: 1px;
         padding-right: 20px;
-       padding-left: 20px;
+        padding-left: 20px;
         margin: 8px;
         font-size: 13px;
-       display: block;
+        display: block;
 
 
 
@@ -46,7 +47,11 @@ img {
         position: absolute;
         background-size: cover;
         width: 40vw;
+
         height:20vw;
+
+        height: 30vw;
+
         left: 28vw;
         top: 138vw;
 
@@ -54,18 +59,19 @@ img {
     }
 
 
-/*Splashbillede/video*/
+    /*Splashbillede/video*/
 
     #video {
-position: fixed; no-repeat;
-left: 50%;
-z-index:-1000;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: 10%;
-transform: translate(-50%, -65%);
-}
+        position: fixed;
+        no-repeat;
+        left: 50%;
+        z-index: -1000;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: 10%;
+        transform: translate(-50%, -65%);
+    }
 
 
 
@@ -73,73 +79,77 @@ transform: translate(-50%, -65%);
 
 
 /*desktop*/
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 650px) {
 
-#video {
-position: fixed; no-repeat;
-left: 50%;
-z-index:-1000;
-min-width: 100%;
-min-height: 100%;
-width: auto;
-height: 50%;
-transform: translate(-50%, -50%);
-}
-        .logo {
+    #video {
+        position: fixed;
+        no-repeat;
+        left: 50%;
+        z-index: -1000;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: 50%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+    }
+
+    .logo {
         font-size: 3rem;
         text-align: center;
-            padding-top: 100px;
+        padding-top: 100px;
 
 
     }
+
     .tekst h1 {
         padding-top: 80px;
         padding-right: 11px;
-       padding-left: 10px;
+        padding-left: 10px;
         margin: 8px;
         font-size: 18px;
-       text-align: center;
+        text-align: center;
 
     }
 
 
- .tekst p {
+    .tekst p {
 
-    padding-right: 180px;
-     padding-left: 180px;
-     padding-top: 1px;
-text-align: center;
-}
-
-
-
-
-.kol2 {
-    display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-
-}
+        padding-right: 180px;
+        padding-left: 180px;
+        padding-top: 1px;
+        text-align: center;
+    }
 
 
 
-.bookknap {
-    position: absolute;
-    background-size: cover;
-    width: 12rem;
-    height: 4rem;
-    top: 43rem;
-    left: 43.5vw;
 
-}
+    .kol2 {
+        display: grid;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
+    }
+
+
+
+    .bookknap {
+        position: absolute;
+        background-size: cover;
+        width: 12rem;
+        height: 4rem;
+        top: 43rem;
+        left: 43.5vw;
+
+    }
 
     #video {
-   position:fixed;
-    z-index: -1;
-    width: 100%;
+        position: fixed;
+        z-index: -1;
+        width: 100%;
         max-height: 50%;
         padding-top: -5px;
-}
+    }
 }

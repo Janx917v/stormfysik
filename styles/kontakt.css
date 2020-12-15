@@ -6,6 +6,7 @@ body {
 
 main {
     padding: 20px;
+    background-image: url(/haand.svg);
 }
 
 .form_section {
