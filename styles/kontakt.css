@@ -10,6 +10,7 @@ main {
 
 .billede-container {
     position: absolute;
+    z-index: -1;
 }
 
 .billede-kol {
@@ -64,6 +65,7 @@ button {
     padding: .75rem 1rem;
     font-family: 'PT Mono', monospace;
     font-style: normal;
+    cursor: pointer:;
 }
 
 button:hover {

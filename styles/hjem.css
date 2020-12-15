@@ -61,7 +61,7 @@ img {
     /*Splashbillede/video*/
 
     #video {
-        position: fixed;
+        position: absolute;
         no-repeat;
         left: 50%;
         z-index: -1000;
@@ -84,19 +84,7 @@ img {
         margin-bottom: 80px;
     }
 
-    #video {
-        position: fixed;
-        no-repeat;
-        left: 50%;
-        z-index: -1000;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: 50%;
-        transform: translate(-50%, -50%);
-        object-fit: cover;
 
-    }
 
     .logo {
         font-size: 3rem;
@@ -107,12 +95,13 @@ img {
     }
 
     .tekst h1 {
-        padding-top: 80px;
+        padding-top: 125px;
         padding-right: 11px;
         padding-left: 10px;
         margin: 8px;
-        font-size: 18px;
+        font-size: 30px;
         text-align: center;
+        font-family: 'Varela', sans-serif;
 
     }
 
@@ -144,19 +133,28 @@ img {
         background-size: cover;
         width: 12rem;
         height: 4rem;
-        top: 43rem;
-        left: 43.5vw;
-
+        top: 41.4rem;
+        left: 43.2vw;
+        cursor: pointer;
     }
 
+    .bookknap:hover {
+        filter: brightness(1.2);
+    }
+
+
+
     #video {
-        position: fixed;
+        position: absolute;
+        no-repeat;
+        left: 50%;
+        top: 18vw;
         z-index: -1;
-        width: 100%;
-        max-height: 50%;
-        padding-top: -5px;
-        margin-bottom: auto;
+        min-width: 100%;
+        width: auto;
+        height: 55%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
     }
 
 }
-
