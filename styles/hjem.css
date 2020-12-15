@@ -1,62 +1,44 @@
-/* Splashbillede/video
-#videoBG {
-    position:fixed;
-    z-index: -1;
-}*/
+img {
 
-/*not work if the screen ratio is below 16/9*/
-/*
-    width:100%;
-    height: auto;
-}*/
-/*Media query til splash/video*/
-/*
+  max-width: 100%;
 
-@media (min-aspect-ratio: 16/9) {
-    #videoBG {
-        width:100%;
-        height: auto;
-    }
+  height: auto;
+
 }
-*/
-
-/* screen ratio under 16/9
-@media (max-aspect-ratio: 16/9) {
-    #videoBG {
-        width:auto;
-        height: 100%;
-    }
-}*/
-
-/* Til små skærme så videoen ikke spiller.
-@media (max-width: 767px) {
-    #videoBG {
-        display: none;
-    }
-    body {
-        background: url('poster.jpg');
-        background-size: cover;
-    }
-}*/
 /*mobil*/
 @media (max-width: 550px) {
 
+
         .logo {
         position: absolute;
-        width: 50vw;
-        height: 20vw;
-        left: 25vw;
-        top: 20vw;
-        padding-top: 100px;
+        width: 35vw;
+        height: 25vw;
+        top: 7rem;
+        left: 30vw;
 
 
     }
-    .kol1 p {
-        padding-top: 400px;
+
+       .tekst h1 {
+        padding-top: 275px;
+        padding-right: 11px;
+       padding-left: 10px;
+        margin: 8px;
+        font-size: 15px;
+       text-align:inherit;
+    }
+
+   .tekst {
+        padding-top: 1px;
         padding-right: 20px;
-        margin: 10px;
-        font-size: 12px;
-        text-align: center;
+       padding-left: 20px;
+        margin: 8px;
+        font-size: 13px;
+       display: block;
+
+
+
+
     }
 
 
@@ -64,36 +46,70 @@
     .bookknap {
         position: absolute;
         background-size: cover;
-        width: 30vw;
-        height:20vw;
-        left: 35vw;
-        top: 41vw;
-        padding-top: 445px;
+        width: 40vw;
+        height:30vw;
+        left: 28vw;
+        top: 45vw;
+        padding-top: 420px;
 
     }
+
+
+/*Splashbillede/video*/
+
+    #video {
+position: fixed; no-repeat;
+left: 50%;
+z-index:-1000;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: 10%;
+transform: translate(-50%, -65%);
+}
+
 
 
 }
 
+
 /*desktop*/
 @media only screen and (min-width: 600px) {
 
+#video {
+position: fixed; no-repeat;
+left: 50%;
+z-index:-1000;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: 50%;
+transform: translate(-50%, -50%);
+}
         .logo {
         font-size: 3rem;
         text-align: center;
-            padding-top: 150px;
+            padding-top: 100px;
 
+
+    }
+    .tekst h1 {
+        padding-top: 80px;
+        padding-right: 11px;
+       padding-left: 10px;
+        margin: 8px;
+        font-size: 18px;
+       text-align: center;
 
     }
 
 
- .kol1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    grid-gap: 30px;
-    padding: 20px;
-     padding-top: 110px;
+ .tekst p {
+
+    padding-right: 180px;
+     padding-left: 180px;
+     padding-top: 1px;
+text-align: center;
 }
 
 
@@ -113,11 +129,19 @@
 .bookknap {
     position: absolute;
     background-size: cover;
-    width: 15rem;
-    height: 7rem;
-    top: 37.3rem;
-    left: 70vw;
-}
+    width: 12rem;
+    height: 4rem;
+    top: 43rem;
+    left: 43.5vw;
+
 }
 
+    #video {
+   position:fixed;
+    z-index: -1;
+    width: 100%;
+        max-height: 50%;
+        padding-top: -5px;
+}
+}
 
