@@ -148,5 +148,6 @@ img {
         width: 100%;
         max-height: 50%;
         padding-top: -5px;
+        margin-bottom: auto;
     }
 }
