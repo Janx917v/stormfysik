@@ -129,7 +129,6 @@ ul {
 
 @media (max-width: 650px) {
 
-
     .container {
         display: grid;
         grid-template-columns: 1fr;
