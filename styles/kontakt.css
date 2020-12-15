@@ -1,13 +1,28 @@
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-
+    overflow: hidden;
 }
 
 main {
     padding: 20px;
     background-image: url(/haand.svg);
 }
+
+.billede-container {
+    position: absolute;
+}
+
+.billede-kol {
+    position: relative;
+    width: 50v;
+    height: 66.7vw;
+    top: -15vw;
+    left: 58vw;
+    object-fit: contain;
+    object-position:
+}
+
 
 .form_section {
     display: grid;
