@@ -95,6 +95,7 @@ img {
         height: 50%;
         transform: translate(-50%, -50%);
         object-fit: cover;
+
     }
 
     .logo {
@@ -148,6 +149,7 @@ img {
 
     }
 
+<<<<<<< HEAD
     #video {
         position: fixed;
         z-index: -1;
@@ -156,5 +158,7 @@ img {
         padding-top: -5px;
         margin-bottom: auto;
     }
+=======
+>>>>>>> origin/master
 
 }
