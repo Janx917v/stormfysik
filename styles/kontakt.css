@@ -6,7 +6,6 @@ body {
 
 main {
     padding: 20px;
-    background-image: url(/haand.svg);
 }
 
 .billede-container {
@@ -17,10 +16,11 @@ main {
     position: relative;
     width: 50v;
     height: 66.7vw;
-    top: -15vw;
+    top: 0w;
     left: 58vw;
     object-fit: contain;
-    object-position:
+    object-position: ;
+    opacity: 30%;
 }
 
 
