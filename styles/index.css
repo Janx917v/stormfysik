@@ -21,54 +21,55 @@ img {
     }
 
     .tekst h1 {
-        padding-top: 120px;
+
         padding-right: 11px;
         padding-left: 10px;
+        padding-bottom: 20x;
         margin: 8px;
         font-size: 15px;
-        text-align: inherit;
+        text-align: center;
     }
 
     .tekst {
-        padding-top: 1px;
+        padding-top: 60px;
         padding-right: 20px;
         padding-left: 20px;
+        padding-bottom: 100px;
         margin: 8px;
         font-size: 13px;
         display: block;
+        text-align: center;
 
 
 
 
     }
-
 
 
     .bookknap {
         position: absolute;
-        background-size: cover;
         width: 40vw;
-        height: 30vw;
-        left: 28vw;
-        top: 45vw;
-        padding-top: 420px;
+        height: 14vw;
+        left: 28.5vw;
+        top: 134vw;
+        z-index: 1;
 
     }
 
     /*Splashbillede/video*/
 
     #video {
-        position: fixed;
+        position: absolute;
         no-repeat;
         left: 50%;
-        z-index: -1000;
+        top: 18vw;
+        z-index: -1;
         min-width: 100%;
-        min-height: 100%;
         width: auto;
-        height: 10%;
-        transform: translate(-50%, -65%);
+        height: 55%;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
     }
-
 
 
 }
@@ -107,12 +108,17 @@ img {
 
     }
 
+    .tekst {
+        padding-bottom: 150px;
+        padding-top: 20px;
+    }
+
 
     .tekst p {
-        margin: 8px;
-        padding-right: 180px;
-        padding-left: 180px;
-        padding-top: 1px;
+        margin: 0px;
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-top: 20px;
         text-align: center;
     }
 
@@ -135,8 +141,8 @@ img {
         background-size: cover;
         width: 12rem;
         height: 4rem;
-        top: 44.6rem;
-        left: 43vw;
+        top: 48.5rem;
+        left: 43.1vw;
         cursor: pointer;
     }
 
