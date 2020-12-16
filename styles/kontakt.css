@@ -1,9 +1,8 @@
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    background-image: url(../fod3.png);
-    background-position: top left;
-    background-size:contain;
+
+
 
 
 }
@@ -11,18 +10,25 @@ body {
 main {
     padding: 20px;
 
+}
 
-<<<<<<< HEAD
-=======
-.billede-kol {
-    position: relative;
-    width: 50vw;
-    height: 66.7vw;
-    top: 0vw;
-    left: 58vw;
-    object-fit: contain;
-    opacity: 30%;
->>>>>>> origin/master
+
+#fod_container {
+position: absolute;
+    top: 25vw;
+    left: 28vw;
+
+
+}
+
+#fod_sprite {
+    background-image: url(../fod3.png);
+    background-position: top left;
+    background-size: contain;
+    opacity: 20%;
+    width: 75vw;
+    height: 150vw;
+
 }
 
 
@@ -88,5 +94,20 @@ button:hover {
         grid-template-columns: 1fr 1fr;
     }
 
+#fod_container {
+position: absolute;
+    top: 5vw;
+    left: 5vw;
 
+}
+
+#fod_sprite {
+    background-image: url(../fod3.png);
+    background-position: top left;
+    background-size: contain;
+    opacity: 20%;
+    width: 24vw;
+    height: 49vw;
+
+}
 }
