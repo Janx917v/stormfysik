@@ -31,7 +31,7 @@ img {
     }
 
     .tekst {
-        padding-top: 60px;
+        padding-top: 0px;
         padding-right: 20px;
         padding-left: 20px;
         padding-bottom: 100px;
@@ -59,15 +59,12 @@ img {
     /*Splashbillede/video*/
 
     #video {
-        position: absolute;
-        no-repeat;
-        left: 50%;
-        top: 18vw;
+        position: relative;
+        top: -2vw;
         z-index: -1;
         min-width: 100%;
         width: auto;
-        height: 55%;
-        transform: translate(-50%, -50%);
+        height: 56.3vw;
         object-fit: cover;
     }
 
@@ -79,15 +76,12 @@ img {
 @media only screen and (min-width: 600px) {
 
     #video {
-        position: absolute;
-        no-repeat;
-        left: 50%;
-        top: 18vw;
+        position: relative;
+        top: -1vw;
         z-index: -1;
         min-width: 100%;
         width: auto;
-        height: 55%;
-        transform: translate(-50%, -50%);
+        height: 30vw;
         object-fit: cover;
     }
 
@@ -95,13 +89,13 @@ img {
         font-size: 3rem;
         text-align: center;
         position: relative;
-        top: -3vw;
+        top: -23vw;
         padding-top: 0px;
 
     }
 
     .tekst h1 {
-        padding-top: 60px;
+        padding-top: 0px;
         margin: 8px;
         font-size: 18px;
         text-align: center;
@@ -109,8 +103,10 @@ img {
     }
 
     .tekst {
-        padding-bottom: 150px;
-        padding-top: 20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        position: relative;
+        top: -15vw
     }
 
 
@@ -141,7 +137,7 @@ img {
         background-size: cover;
         width: 12rem;
         height: 4rem;
-        top: 48.5rem;
+        top: 50.6rem;
         left: 43.1vw;
         cursor: pointer;
     }
