@@ -1,15 +1,25 @@
 img {
 
+
+
     max-width: 100%;
 
+
+
     height: auto;
+
+
 
 }
 
 
 
+
+
 /*mobil*/
 @media (max-width: 650px) {
+
+
 
 
     .logo {
@@ -19,7 +29,11 @@ img {
 
 
 
+
+
     }
+
+
 
     .tekst h1 {
         padding-top: 22px;
@@ -30,6 +44,8 @@ img {
         text-align: inherit;
         font-family: 'Varela', sans-serif;
     }
+
+
 
     .tekst {
         padding-top: 1px;
@@ -42,7 +58,11 @@ img {
 
 
 
+
+
     }
+
+
 
 
 
@@ -52,12 +72,14 @@ img {
         width: 10rem;
         left: 30vw;
         top: 1rem;
-
-
     }
 
 
+
+
     /*Splashbillede/video*/
+
+
 
     #video {
         position: absolute;
@@ -73,15 +95,23 @@ img {
 
 
 
+
+
 }
+
+
 
 
 /*desktop*/
 @media only screen and (min-width: 650px) {
 
+
+
     .main {
         margin-bottom: 80px;
     }
+
+
 
 
 
@@ -91,7 +121,11 @@ img {
         padding-top: 100px;
 
 
+
+
     }
+
+
 
     .tekst h1 {
         padding-top: 125px;
@@ -102,16 +136,24 @@ img {
         text-align: center;
         font-family: 'Varela', sans-serif;
 
+
+
     }
 
 
+
+
     .tekst p {
+
+
 
         padding-right: 180px;
         padding-left: 180px;
         padding-top: 1px;
         text-align: center;
     }
+
+
 
 
 
@@ -123,7 +165,11 @@ img {
         grid-row-start: 1;
         grid-row-end: 2;
 
+
+
     }
+
+
 
 
 
@@ -137,9 +183,13 @@ img {
         cursor: pointer;
     }
 
+
+
     .bookknap:hover {
         filter: brightness(1.2);
     }
+
+
 
 
 
@@ -155,5 +205,7 @@ img {
         transform: translate(-50%, -50%);
         object-fit: cover;
     }
+
+
 
 }
