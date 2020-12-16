@@ -6,6 +6,18 @@ img {
 
 }
 
+#video {
+    position: absolute;
+    no-repeat;
+    left: 50%;
+    top: 18vw;
+    z-index: -1;
+    min-width: 100%;
+    width: auto;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+}
 
 
 /*mobil*/
@@ -56,6 +68,7 @@ img {
 
     /*Splashbillede/video*/
 
+    /*
     #video_mobil {
         position: absolute;
         no-repeat;
@@ -67,6 +80,7 @@ img {
         height: 10%;
         transform: translate(-50%, -65%);
     }
+*/
 
 
 
@@ -140,6 +154,7 @@ img {
 
 
 
+    /*
     #video {
         position: absolute;
         no-repeat;
@@ -152,5 +167,6 @@ img {
         transform: translate(-50%, -50%);
         object-fit: cover;
     }
+*/
 
 }
