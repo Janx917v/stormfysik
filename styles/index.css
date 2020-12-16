@@ -87,13 +87,14 @@ img {
     .logo {
         font-size: 3rem;
         text-align: center;
-        padding-top: 100px;
+        position: relative;
+        top: -3vw;
 
 
     }
 
     .tekst h1 {
-        padding-top: 125px;
+        padding-top: 45px;
         padding-right: 11px;
         padding-left: 10px;
         margin: 8px;
@@ -131,7 +132,7 @@ img {
         background-size: cover;
         width: 12rem;
         height: 4rem;
-        top: 46.4rem;
+        top: 44.7rem;
         left: 43.2vw;
         cursor: pointer;
     }
