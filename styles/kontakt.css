@@ -23,7 +23,7 @@ main {
 }
 
 #fod_sprite {
-    background-image: url(../fod3.png);
+    background-image: url(../fod3.jpg);
     background-position: top left;
     background-size: contain;
     opacity: 20%;
