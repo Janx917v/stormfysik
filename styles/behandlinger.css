@@ -23,39 +23,22 @@ h3 {
     .kol {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.5fr 1fr 0.5fr;
+        grid-template-rows: 1fr;
         padding: 20px;
-        grid-gap: 30px;
-        max-width: 1400px;
+        grid-gap: 40px;
         text-align: center;
         margin-bottom: 60px;
 
     }
 
-    .kolh1 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 2;
-
-    }
-
-    .kolh2 {
-        display: grid;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 2;
-
-    }
 
     .kol1 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+
     }
 
 
@@ -63,49 +46,43 @@ h3 {
         display: grid;
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 2;
-        grid-row-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
 
     }
 
-    .priser1 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
 
-
-    .priser2 {
-        display: grid;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
 
 
     .bookknap1 {
-        /*        position: absolute;*/
+        position: relative;
+        left: -0.4vw;
+        top: 1vw;
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
         display: block;
         margin: auto;
+    }
 
+    .bookknap1:hover {
+        filter: brightness(1.3);
     }
 
     .bookknap2 {
-        /*        position: absolute;*/
+        position: relative;
+        top: 1vw;
         background-image: url(book_knap.svg);
         background-size: cover;
         width: 10rem;
         height: 3rem;
         display: block;
         margin: auto;
+    }
 
+    .bookknap2:hover {
+        filter: brightness(1.3);
     }
 
 
@@ -118,17 +95,16 @@ h3 {
 
 
     .kol {
-        padding: 20px;
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 0.3fr 1fr 0.5fr 0.3fr 1fr 0.5fr;
+        grid-template-rows: 1fr 1fr;
         padding: 20px;
-        grid-gap: 50px;
+        grid-gap: 20px;
         margin-bottom: 60px;
         text-align: center;
     }
 
-    .kolh1 {
+    .kol1 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -137,7 +113,9 @@ h3 {
 
     }
 
-    .kol1 {
+
+
+    .kol2 {
         display: grid;
         grid-column-start: 1;
         grid-column-end: 2;
@@ -146,42 +124,6 @@ h3 {
 
     }
 
-    .priser1 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 3;
-        grid-row-end: 4;
-    }
-
-
-    .kolh2 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-
-    }
-
-
-    .kol2 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-
-    }
-
-
-    .priser2 {
-        display: grid;
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    }
 
 
 

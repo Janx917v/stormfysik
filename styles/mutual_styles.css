@@ -282,13 +282,14 @@ footer p {
     }
 
     #burgersection {
+        position: relative;
         transition: transform 0.3s;
         transform-style: top right;
         background: #c7b5a7;
         margin-top: 1.5rem;
         height: 35rem;
         line-height: 100px;
-        z-index: 5;
+        z-index: 2;
     }
 
     #burgersection li {
