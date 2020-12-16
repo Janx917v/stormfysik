@@ -1,18 +1,19 @@
 body {
     display: grid;
     grid-template-rows: auto 1fr auto;
-    overflow: hidden;
+    background-image: url(../fod3.png);
+    background-position: top left;
+    background-size:contain;
+
+
 }
 
 main {
     padding: 20px;
-}
 
-.billede-container {
-    position: absolute;
-    z-index: -1;
-}
 
+<<<<<<< HEAD
+=======
 .billede-kol {
     position: relative;
     width: 50vw;
@@ -21,7 +22,11 @@ main {
     left: 58vw;
     object-fit: contain;
     opacity: 30%;
+>>>>>>> origin/master
 }
+
+
+
 
 
 .form_section {
@@ -75,10 +80,13 @@ button:hover {
     section {
         max-width: 1000px;
         margin: 0 auto;
+
     }
 
     .form_section {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
+
 }
