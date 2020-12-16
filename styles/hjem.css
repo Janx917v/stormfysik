@@ -16,9 +16,6 @@ img {
         font-size: 3rem;
         text-align: center;
         padding-top: 10px;
-
-
-
     }
 
     .tekst h1 {
@@ -59,7 +56,7 @@ img {
 
     /*Splashbillede/video*/
 
-    #video {
+    #video_mobil {
         position: absolute;
         no-repeat;
         left: 50%;
