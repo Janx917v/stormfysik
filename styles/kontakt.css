@@ -12,6 +12,17 @@ main {
     padding: 20px;
 
 
+<<<<<<< HEAD
+=======
+.billede-kol {
+    position: relative;
+    width: 50vw;
+    height: 66.7vw;
+    top: 0vw;
+    left: 58vw;
+    object-fit: contain;
+    opacity: 30%;
+>>>>>>> origin/master
 }
 
 
@@ -58,7 +69,7 @@ button {
     padding: .75rem 1rem;
     font-family: 'PT Mono', monospace;
     font-style: normal;
-    cursor: pointer:;
+    cursor: pointer;
 }
 
 button:hover {
