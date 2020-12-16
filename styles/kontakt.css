@@ -17,6 +17,7 @@ main {
 position: absolute;
     top: 25vw;
     left: 28vw;
+    pointer-events: none;
 
 
 }
