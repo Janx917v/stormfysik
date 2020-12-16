@@ -284,13 +284,15 @@ footer p {
     #burgersection {
         position: relative;
         transition: transform 0.3s;
-        transform-style: top right;
+        transform-style: top left;
         background: #c7b5a7;
         margin-top: 1.5rem;
         height: 35rem;
         line-height: 100px;
         z-index: 2;
     }
+
+
 
     #burgersection li {
         margin-top: -0.75rem;
@@ -315,7 +317,7 @@ footer p {
 
     .hidden {
         opacity: 0;
-        transform: translateX(150%);
+        transform: translateX(-150%);
 
     }
 
